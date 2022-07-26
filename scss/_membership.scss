@@ -1,0 +1,27 @@
+@import "_membership";
+
+body
+        {
+            margin-left: 75px;
+            text-align: center;
+            background-color: rgb(2, 36, 255);
+            font-size: 135%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+             Arial, sans-serif;
+             display: grid;
+             width: 100%;
+             max-width: 500px;
+             justify-content: space-between 
+            
+        }
+       
+        .container-footer
+        {
+          
+       text-align: center;
+      background-color: #fbff00;
+        }
+        .container
+        {
+          background-color: aliceblue;
+        }

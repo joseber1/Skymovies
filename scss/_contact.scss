@@ -1,0 +1,42 @@
+@import "_contact.scss";
+
+body
+        {
+            background-color: burlywood;
+        }
+
+        .información
+        {
+            display: grid;
+            grid: template columns auto auto 10px ;
+            text-align: center;
+            width: 920px;
+            height: 20pxpx;
+            margin-left: 1px;
+            border-color: brown 10px;
+            display: grid;
+            width: 100%;
+            max-width: 770px;
+            margin: 0 auto;
+
+        }
+        .video
+        {
+           position: absolute;
+           margin-left: 5px;
+        }
+
+        .nombre-formulario
+        {
+            display: grid;
+            text-align: center;
+            grid-area: auto ;
+        }
+
+        .container-footer
+  {
+   text-align: center;
+   background-color: #002aff;
+
+
+  }
