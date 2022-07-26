@@ -1,0 +1,189 @@
+@import "../css/index.css";
+@import "scss/aboutus.scss";
+@import "/scss/_blog.scss";
+@import "/scss/_contact.scss";
+@import "/scss/_aboutus.scss";
+@import "/scss/_membership.scss";
+@import "/scss/_movies.scss";
+
+body {
+  background-color: #1a37cb;
+}
+@media only screen and (max-width: 600px) {
+  body body {
+    background-color: rgb(27, 8, 237);
+  }
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+.name-of-my-web {
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 500px;
+  display: grid;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.somos-skymovies {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  background-color: rgb(251, 253, 255);
+  grid-template-columns: 10px auto 10px;
+  border: 2px solid black;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-container .grid-container2 {
+  justify-content: space-between;
+  display: grid;
+}
+.grid-container .grid-container2 .grid-container3 {
+  grid-template-columns: 15px auto 10px;
+  text-align: center;
+  margin-left: 24px;
+  width: 890px;
+}
+
+a:hover {
+  color: #20e60e;
+  border-bottom: 3px solid #20e60e;
+  width: 200px;
+  padding: 2px;
+}
+
+header li .h1 {
+  font-size: 40px;
+  font-family: "League Gothic", sans-serif;
+}
+
+section {
+  background-color: rgb(177, 174, 174);
+}
+
+.grid-container3 {
+  display: grid;
+  justify-content: center;
+  margin-left: 100px;
+  font-family: "Gill Sans";
+}
+.grid-container3 .grid.card {
+  display: grid;
+  justify-content: space-between;
+  margin-left: 99%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+  align-items: center;
+  text-align: center;
+}
+
+.li1 {
+  text-align: center;
+  margin-right: 100px;
+}
+.li1 .li2 {
+  text-align: center;
+  margin-right: 100px;
+}
+.li1 .li2 .li3 {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.container-footer {
+  text-align: center;
+  background-color: #002aff;
+}
+
+.somos-skymovies {
+  font-family: "Gill Sans";
+}
+
+/*images*/
+.img1 {
+  margin-right: 50px;
+}
+.img1 .img2 {
+  text-align: center;
+}
+
+/*About us*/
+.text1 {
+  text-align: center;
+}
+
+.li-container2 {
+  margin-left: 100px;
+}
+
+/*movie*/
+body {
+  background-color: lightblue;
+  justify-content: center;
+  background-color: rgb(77, 75, 75);
+}
+
+.text1 {
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.container {
+  background-color: rgb(127, 212, 255);
+}/*# sourceMappingURL=index.css.map */
